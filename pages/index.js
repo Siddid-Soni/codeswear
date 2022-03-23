@@ -1,8 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
-import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
@@ -13,7 +9,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Navbar />
       <div><img src="/home.webp" alt="" /></div>
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
@@ -94,7 +89,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <Footer />
     </div>
   )
 }
